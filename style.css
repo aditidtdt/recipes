@@ -1,0 +1,46 @@
+body {
+  background-color: #626F47;
+  margin: auto;
+}
+
+.title {
+  background-color: #F5ECD5;
+;
+  color: #4B352A ;
+  font-family: Helvetica, sans-serif;
+  padding: 30px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.recipe-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+img {
+  border-radius: 12px;
+}
+
+img:hover {
+  height: 210px;
+  width: 310px;
+  transition: 0.2s;
+}
+
+.pasta, .buns, .cake {
+  background-color: #F5ECD5;
+  list-style: none;
+  margin-top: 170px;
+  padding: 20px 20px 0 20px;
+  border-radius: 12px;
+}
+
+h2 {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: #626F47;
+}
