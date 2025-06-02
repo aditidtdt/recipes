@@ -1,0 +1,41 @@
+body {
+  background-color: #626F47;
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home {
+  color:#F5ECD5;
+  padding: 35px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+img {
+  height: 250px;
+  width: 300px;
+  border-radius: 10%;
+}
+
+.title {
+  text-align: center;
+  color:#626F47;
+}
+
+.container {
+  width: 70vw;
+  border-radius: 5%;
+  background-color: #F5ECD5;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
